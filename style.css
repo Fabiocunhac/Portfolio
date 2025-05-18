@@ -1,0 +1,96 @@
+/* Estilização básica do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #d0e1e4;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    background-color: lab(83.27% -80.01 69.23);
+  }
+  
+  main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #000000;
+    color: white;
+    padding: 0.7em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #000000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  /* Cores diferentes para cada página */
+body.pagina-sobre {
+  background-color: #d0e1e4; 
+}
+
+body.pagina-formacao {
+  background-color: #e7c1e5; 
+}
+
+body.pagina-portfolio {
+  background-color: #89e3f3; 
+}
+
+body.pagina-contato {
+  background-color: #94e2ae; 
+}
+
+  
