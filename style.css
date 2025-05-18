@@ -1,9 +1,10 @@
 /* Estilização básica do site */
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Segoe UI' Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    color:#333;
   }
   
   header {
@@ -31,17 +32,22 @@ body {
     text-decoration: none;
     padding: 0.5em;
     display: inline-block;
+    transition: background-color 0.3s ease;
   }
   
   nav ul li a:hover {
     background-color: lab(83.27% -80.01 69.23);
+    border-radius: 5px;
   }
   
   main {
     padding: 2em;
     max-width: 800px;
-    margin: auto;
+    margin: 3em auto;
     background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    line-height: 1.7;
   }
   
   form {
@@ -51,8 +57,10 @@ body {
   
   input, textarea {
     margin-bottom: 1em;
-    padding: 0.5em;
+    padding: 0.6em;
     font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
   
   button {
@@ -61,6 +69,8 @@ body {
     padding: 0.7em;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
   }
   
   button:hover {
@@ -92,5 +102,7 @@ body.pagina-portfolio {
 body.pagina-contato {
   background-color: #94e2ae; 
 }
+
+  
 
   
